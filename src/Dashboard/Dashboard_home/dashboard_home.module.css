@@ -1,0 +1,99 @@
+.content {
+    /* width: ; */
+    /* height: auto; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    display: inline;
+    /* margin: 40px 50px; */
+    /* text-align: center; */
+    /* border: 1px solid rgb(224, 224, 154); */
+    /* background-color: white; */
+}
+
+.content_button {
+    /* width: 20%; */
+    /* height: auto; */
+    display: inline-block;
+    margin: 20px 16px;  
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.8239670868347339) 25%, rgba(246,246,252,0.6643032212885154) 45%, rgba(228,247,251,0.6418942577030813) 64%);
+    cursor: pointer;
+    font-size: medium;
+    color: black;
+    font-weight: bold ;
+}
+
+.abc {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content_text {
+    width: 25%;
+    padding: 20px;
+    text-align: justify;
+    /* display: inline-block; */
+    border: 1px solid rgb(224, 224, 154);
+    background: rgb(158,157,167);
+    background: linear-gradient(90deg, rgba(158,157,167,0.8463760504201681) 0%, rgba(125,125,227,0.7679446778711485) 25%, rgba(77,206,232,0.76234243697479) 100%);
+
+    box-shadow: inset 0px 0px 0px 10px whitesmoke;
+    /* margin-top: 40px; */
+    /* margin-right: 40px; */
+    /* margin-left: 40px; */
+}
+
+
+.searchbar {
+    margin: 40px 40px;
+    padding: 8px 0px;
+    display: inline;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.search_box_input1{
+    padding: 5px 10px;
+    border: none transparent;
+    outline: none;
+    background: transparent;
+}
+
+.input_border{
+    border: 2px #78909c solid;
+    margin-right: 30px;
+    padding: 0px 12px;
+    background-color: whitesmoke;
+}
+
+.gopro{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin: 10px 40px;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.vl{
+    height: 200px;
+    border: 4px black solid;
+    width: 0px;
+    display: inline-block;
+}
+
+.top_block{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
