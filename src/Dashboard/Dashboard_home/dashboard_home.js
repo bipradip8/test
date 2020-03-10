@@ -26,7 +26,7 @@ return(
         </span>
         <span className={classes.input_border}>
             <span><FontAwesomeIcon icon={faMapPin} /></span>
-            <input className={classes.search_box_input1} placeholder="All city"/>
+            <input className={classes.search_box_input1} placeholder="All cities"/>
         </span>
         <Button size="md">Search</Button>
     </div>
